@@ -64,19 +64,35 @@ it will give you that there is one file untracked. So you write (git add excel) 
 
 the output of that command (3 files changed)
 
+## git remote -v
+
+this gives you => origin https://github.com/heshamabdelazim/hesham-github.git
+origin is the remote name
+
 ## git branch
 
 it gives you => main ..............ETC
 to see all branches in the local
 every branch has features, For example branch name called main or master
 
-## git remote -v
-
-this gives you => origin https://github.com/heshamabdelazim/hesham-github.git
-origin is the remote name
-
 ## git push origin main
 
 this command to push all files you (added) to your account on Git-hub
 but what is (origin) and (main)? they are like this (git push remoteName branchName)  
 But you first write (git remote -v) then write (git branch) just to make sure you write right
+
+---
+
+# So what we had learn ?
+
+1. create your files
+2. git add your files
+3. git commit -m "we fixed the bug"
+4. git push origin main
+
+# some other commands like:
+
+- git status => every time to see what's up
+- git reset head fileName => this to unAdd the fileName you just added, you will remove it from the addition
+- git remote -v => this gives you origin and link
+- git branch => this to make you branch like main
